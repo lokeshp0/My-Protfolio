@@ -1,0 +1,19 @@
+.header-area{
+    width: 100%;
+    position: absolute;
+}
+.home_page{
+    height: 100vh;
+    background-image: url("../img/banner.png");
+    background-size: cover;
+}
+.about_page{
+    color: white;
+    background-color: #311E25;
+}
+.service_area{
+    background-color: #3B2930;
+    padding-bottom: 90px;
+    padding-top: 120px;
+    color: white;
+}
