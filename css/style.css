@@ -2,6 +2,9 @@
     width: 100%;
     position: absolute;
 }
+@media screen {
+    
+}
 .home_page{
     height: 100vh;
     background-image: url("../img/banner.png");
@@ -10,6 +13,10 @@
 .about_page{
     color: white;
     background-color: #311E25;
+}
+.about_page p{
+    font-size: 16px;
+    color:  #eae9dcbd;
 }
 .service_area{
     background-color: #3B2930;
@@ -27,4 +34,13 @@
     color: white;
     padding-top: 80px;
     padding-bottom: 100px;
+}
+.skill_area{
+    color: white;
+    background-color: #311E25;
+}
+.footer{
+    background-image: url("../img/banner.png");
+    color: wheat;
+    padding-top: 90px;
 }
