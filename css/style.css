@@ -44,3 +44,17 @@
     color: wheat;
     padding-top: 90px;
 }
+.about_home_page{
+    height: 100vh;
+    color: white;
+    background-image: url("../img/banner.png");
+    background-size: cover;
+}
+.about_home_page .about_section{
+    font-size: 55px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 60px;
+    color: white;
+}
