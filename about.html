@@ -28,11 +28,12 @@
 <body>
     <!-- Header area start -->
     <header>
-        <div class="header-area">
+
+        <div class="header-area shadow-sm" style="background-color: rgba(103, 137, 138, 0.042);">
             <div id="stiky-header" class="main-header-area">
                 <div class="container-fluid">
-                    <div class="row p-3">
-                        <div class="col-2">
+                    <div class="row p-3 justify-content-between">
+                        <div class="col-3">
                             <div class="logo">
                                 <a href="index.html" class="text-decoration-none">
                                     <!-- <img src="img/logo.png" width="140px" > -->
@@ -42,20 +43,31 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-8 border-info d-flex align-items-center justify-content-center">
-                            <div class="px-3 "><a href="index.html" class="text-decoration-none fs-5"
-                                    style="color: rgb(234, 143, 143);">Home</a></div>
-                            <div class="px-3 "><a href="about.html" class="text-decoration-none fs-5"
-                                    style="color: rgb(234, 143, 143);">About</a></div>
-                            <div class="px-3 "><a href="" class="text-decoration-none fs-5"
-                                    style="color: rgb(234, 143, 143);">Education</a></div>
-                            <div class="px-3 "><a href="" class="text-decoration-none fs-5"
-                                    style="color: rgb(234, 143, 143);">Skill</a></div>
-                            <div class="px-3 "><a href="" class="text-decoration-none fs-5"
-                                    style="color: rgb(234, 143, 143);">Contact</a></div>
+                        <div class="col-6 mx-auto d-flex align-items-center justify-content-between position-relative">
+                            <div class="link_background" id="link_background_id" style="left: 117px;"> </div>
+                            <div class="nav_link text-center " onmouseenter="backgroundAction(-19)"
+                                onmouseleave="backgrounReAction(117)"><a href="index.html"
+                                    class="text-decoration-none fs-5 z-3 position-relative text-center"
+                                    style="color: #ff9595;">Home</a></div>
+                            <div class="nav_link  text-center" onmouseenter="backgroundAction(117)"
+                                onmouseleave="backgrounReAction(117)"><a href="about.html"
+                                    class="text-decoration-none fs-5 z-3 position-relative active_link"
+                                     id="active_link" >About</a></div>
+                            <div class="nav_link text-center " onmouseenter="backgroundAction(269)"
+                                onmouseleave="backgrounReAction(117)"><a href="education.html"
+                                    class="text-decoration-none fs-5 z-3 position-relative "
+                                    style="color:  #ff9595;">Education</a></div>
+                            <div class="nav_link text-center " onmouseenter="backgroundAction(420)"
+                                onmouseleave="backgrounReAction(117)"><a href=""
+                                    class="text-decoration-none fs-5 z-3 position-relative "
+                                    style="color:  #ff9595;">Skill</a></div>
+                            <div class="nav_link text-center " onmouseenter="backgroundAction(555)"
+                                onmouseleave="backgrounReAction(117)"><a href=""
+                                    class="text-decoration-none fs-5 z-3 position-relative "
+                                    style="color:  #ff9595;">Contact</a></div>
                         </div>
-                        <div class="col-2 d-flex">
-                            <button class="mx-auto px-4 py-1 fs-5 "
+                        <div class="col-3 ms-auto d-flex">
+                            <button class="ms-auto px-4 py-1 fs-5 "
                                 style="color: rgb(234, 143, 143); border: 1px   rgb(234, 143, 143) solid ; background-color: inherit;">Let's
                                 talk </button>
                         </div>
@@ -71,17 +83,19 @@
         <div class="container-fluid about_home_page">
             <div class="row h-100 justify-content-center ">
                 <div class="col-6  my-auto">
-                    <h3 class="about_section text-center">
-                        Hi There, I am Lokesh
-                        <br>
-                        I Love Java Programming language
+                    <h3 class="about_section text-center display-3" style="font-family: 'Lobster Two', sans-serif;
+                    font-family: 'Neuton', serif;">
+                        Hi !, I'm Lokesh Prajapati
                     </h3>
+
+                    <h4 class="about_section text-center" style="font-family: 'Lobster Two', sans-serif;
+                       font-family: 'Neuton', serif; height: 20px;" id="subheading"> </h4>
                 </div>
             </div>
         </div>
     </Section>
     <!-- about center area end -->
-    <section>
+    <!-- <section>
         <div class="container-fluid about_page">
             <div class="row d-flex justify-content-center py-5">
                 <div class="col-10">
@@ -134,7 +148,21 @@
                             </div>
                         </div>
                     </div>
-    </section>
+    </section> -->
+
+    <!-- About my self -->
+    <div class="container about_detail">
+        <div class="row">
+            <div class="col-4">
+                <h3 class="test-info">My Story</h3>
+                <p class="test-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias perspiciatis
+                    ipsum earum quidem quae, doloribus iure praesentium! Saepe, error! Architecto voluptate facere
+                    nostrum quasi, fugiat est distinctio porro ratione sint!</p>
+
+            </div>
+        </div>
+    </div>
 </body>
+<script src="./js/customjs.js"></script>
 
 </html>

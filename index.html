@@ -28,7 +28,7 @@
 <body>
     <!--Header star-->
     <header>
-        <div class="header-area">
+        <div class="header-area position-fixed shadow-lg" style="background-color:#311E25">
             <div id="stiky-header" class="main-header-area">
                 <div class="container-fluid">
                     <div class="row p-3">
@@ -37,26 +37,49 @@
                                 <a href="index.html" class="text-decoration-none">
                                     <!-- <img src="img/logo.png" width="140px" > -->
                                     <h3 class="fw-semibold"
-                                        style="color: rgb(234, 143, 143); font-family: 'Lobster Two', sans-serif;">
+                                        style="color: #ff9595; font-family: 'Lobster Two', sans-serif;">
                                         LOKESH..</h3>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-8 border-info d-flex align-items-center justify-content-center">
-                            <div class="px-3 "><a href="index.html" class="text-decoration-none fs-5"
+                        <!-- <div  class="col-8 border-info d-flex align-items-center justify-content-center">
+                            <div class="px-3 link_hover " ><a href="index.html" class="text-decoration-none fs-5"
                                     style="color: rgb(234, 143, 143);">Home</a></div>
-                            <div class="px-3 "><a href="about.html" class="text-decoration-none fs-5"
+                            <div class="px-3 link_hover "><a href="about.html" class="text-decoration-none fs-5"
                                     style="color: rgb(234, 143, 143);">About</a></div>
-                            <div class="px-3 "><a href="" class="text-decoration-none fs-5"
+                            <div class="px-3 link_hover "><a href="education.html" class="text-decoration-none fs-5" 
                                     style="color: rgb(234, 143, 143);">Education</a></div>
-                            <div class="px-3 "><a href="" class="text-decoration-none fs-5"
+                            <div class="px-3 link_hover "><a href="" class="text-decoration-none fs-5"
                                     style="color: rgb(234, 143, 143);">Skill</a></div>
-                            <div class="px-3 "><a href="" class="text-decoration-none fs-5"
+                            <div class="px-3 link_hover "><a href="" class="text-decoration-none fs-5"
                                     style="color: rgb(234, 143, 143);">Contact</a></div>
+                        </div> -->
+                        <div class="col-6 mx-auto d-flex align-items-center justify-content-between position-relative">
+                            <div class="link_background" id="link_background_id" style="left: -19px;"> </div>
+                            <div class="nav_link text-center" onmouseenter="backgroundAction(-19)"
+                                onmouseleave="backgrounReAction(-19)"><a href="index.html"
+                                    class="text-decoration-none fs-5 z-3 position-relative text-center active_link"
+                                    id="active_link">Home</a></div>
+                            <div class="nav_link  text-center" onmouseenter="backgroundAction(117)"
+                                onmouseleave="backgrounReAction(-19)"><a href="about.html"
+                                    class="text-decoration-none fs-5 z-3 position-relative "
+                                    style="color: #ff9595;">About</a></div>
+                            <div class="nav_link text-center " onmouseenter="backgroundAction(269)"
+                                onmouseleave="backgrounReAction(-19)"><a href="education.html"
+                                    class="text-decoration-none fs-5 z-3 position-relative "
+                                    style="color: #ff9595;">Education</a></div>
+                            <div class="nav_link text-center " onmouseenter="backgroundAction(420)"
+                                onmouseleave="backgrounReAction(-19)"><a href=""
+                                    class="text-decoration-none fs-5 z-3 position-relative "
+                                    style="color: #ff9595;">Skill</a></div>
+                            <div class="nav_link text-center " onmouseenter="backgroundAction(555)"
+                                onmouseleave="backgrounReAction(-19)"><a href=""
+                                    class="text-decoration-none fs-5 z-3 position-relative "
+                                    style="color: #ff9595;">Cotacnt</a></div>
                         </div>
                         <div class="col-2 d-flex">
                             <button class="mx-auto px-4 py-1 fs-5 "
-                                style="color: rgb(234, 143, 143); border: 1px   rgb(234, 143, 143) solid ; background-color: inherit;">Let's
+                                style="color: #ff9595; border: 1px   #eb8897 solid ; background-color: inherit;">Let's
                                 talk </button>
                         </div>
                     </div>
@@ -74,14 +97,14 @@
                     <h1 class="text-light display-3 fw-light" style="font-family: 'Lobster Two', sans-serif;
                     font-family: 'Neuton', serif;">Lokesh Prajapati</h1>
                     <h3 style="font-family: 'Lobster Two', sans-serif;
-                    font-family: 'Neuton', serif; color:  rgb(234, 143, 143);">Java Developer...</h3>
+                    font-family: 'Neuton', serif; color:  #ff9595;">Java Developer...</h3>
                     <p class="text-light font-italic">Hello, I'm Lokesh Prajapati, an enthusiastic and detail-oriented
                         Java
                         developer eager to embark on a journey in the world of software development. I recently
                         graduated with a degree in Computer Science and am excited to apply my knowledge to real-world
                         projects...</p>
                     <button class="mx-auto px-4 py-1 fs-5 mt-3"
-                        style="color: rgb(234, 143, 143); border: 1px   rgb(234, 143, 143) solid ; background-color: inherit;">View
+                        style="color: #ff9595; border: 1px   #e8539b solid ; background-color: inherit;">View
                         More <i class="bi bi-arrow-right"></i></button>
                 </div>
                 <div class="col-3  my-auto" style="padding-top: 110px; padding-left: 100px;">
@@ -222,6 +245,34 @@
             </div>
         </div>
     </div>
+
+    <!-- gallery area -->
+    <section class="gallery-area py-5">
+        <div class="container_fulid">
+            <div class="row">
+                <h1 class="display-3 text-white ps-5 fw-semibold pb-5">
+                    Gallery....
+                </h1>
+            </div>
+            <div class="row justify-content-evenly">
+                <div class="col-3 p-3">
+                    <div class="gallery-item">
+                        <img src="img/gallery/lokesh2.png" alt="" class="h-100 w-100">
+                    </div>
+                </div>
+                <div class="col-3 p-0" style="box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.659);">
+                    <div class="gallery-item">
+                        <img src="img/gallery/lokesh2.png" alt="" class="h-100 w-100">
+                    </div>
+                </div>
+                <div class="col-3 p-3">
+                    <div class="gallery-item">
+                        <img src="img/gallery/lokesh2.png" alt="" class="h-100 w-100" >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer>
         <div class="footer">
             <div class="container">
@@ -233,12 +284,8 @@
                     </div>
                     <div class="col-md-6">
                         <h3>Follow Us</h3>
-                        <ul class="social-icons">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                          B <img src="./img/linkedin-logo.png" alt="logo"><li></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                        </ul>
+                        <a href="https://www.linkedin.com/in/lokesh-prajapati-5754bb279?"><img
+                                src="./img/linkedin logo.png" alt="logo"></a>
                     </div>
                 </div>
             </div>
@@ -246,5 +293,6 @@
     </footer>
 
 </body>
+<script src="./js/customjs.js"></script>
 
 </html>
